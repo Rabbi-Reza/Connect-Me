@@ -1,0 +1,4 @@
+npx create-react-app .
+npm install firebase
+npm install @material-ui/core
+npm install @material-ui/icons

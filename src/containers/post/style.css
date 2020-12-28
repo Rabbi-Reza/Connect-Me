@@ -1,0 +1,50 @@
+.post {
+  background-color: white;
+  max-width: 720px;
+  width: 90vw;
+  padding: 16px;
+  margin-bottom: 8px;
+}
+
+.post_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post_headerLeft {
+  display: flex;
+  align-items: center;
+}
+
+.post_profilePic {
+  height: 50px;
+  border-radius: 25px;
+}
+
+.post_delete {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.post_delete:focus {
+  outline: none;
+}
+
+.post_photoUrl {
+  width: 100%;
+  object-fit: cover;
+  margin: 16px 0px;
+}
+
+.post_like {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post_likeIcon {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
